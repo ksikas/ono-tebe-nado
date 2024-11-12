@@ -19,10 +19,8 @@
     letter-spacing: 0.01em;
     text-align: left;
     list-style: circle inside;
-    grid-column: 1/2;
     justify-self: start;
     width: 410px;
-
 }
 
 
@@ -33,7 +31,6 @@
 
 .header__link {
     text-decoration: underline;
-    
 }
 
 .header__link_active {
@@ -49,7 +46,6 @@
     width: 178px;
     height: 105px;
     box-sizing: border-box;
-    grid-column: 2/3;
     justify-self: start;
     padding-left: 9px;
 }
@@ -71,7 +67,6 @@
     letter-spacing: 0.01em;
     text-align: left;
     width: 237px;    
-    grid-column: 3/4;
     justify-self: end;
 }
 
@@ -237,7 +232,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .card_type_book {
@@ -331,7 +325,6 @@
     line-height: 46.96px;
     text-align: left;
     text-transform: uppercase;
-
 }
 
 .about__text {
@@ -382,12 +375,10 @@
     justify-self: center;
     align-self: start;
     width: 423.48px;
-
 }
 
 .footer__links-list-item {
     display: list-item;
-
 }
 
 .footer__link {
