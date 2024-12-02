@@ -19,6 +19,7 @@
   text-align: left;
   list-style: circle inside;
   justify-self: start;
+  margin-top: 4px;
   width: 410px;
 }
 
@@ -41,11 +42,11 @@
 
 .header__logo {
   display: block;
-  width: 178px;
-  height: 105px;
+  width: 177px;
+  height: 106px;
   box-sizing: border-box;
   justify-self: start;
-  padding-left: 9px;
+  padding-left: 7px;
 }
 
 .header__logo-image {
@@ -58,6 +59,7 @@
 
 .contacts {
   align-self: end;
+  margin-bottom: 2px;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -86,14 +88,13 @@
   background-position: center;
   background-size: 1100px 757px;
   text-transform: uppercase;
-  height: 757px;
   color: #fff;
   position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 165px 50px 62px 50px;
+  padding: 167px 49px 51px 51.5px;
 }
 
 .overlay {
@@ -121,22 +122,19 @@
 
 .aligned-text {
   display: block;
-  line-height: 115px;
-  margin: 0 0 20px 0;
+  line-height: 118px;
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
-  line-height: 100px;
-  margin: 0 0 20px 0;
+  line-height: 135px;
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
-  line-height: 100px;
-  margin: 0;
+  line-height: 106px;
 }
 
 .letter-spacing-extended {
@@ -150,7 +148,7 @@
 .cover__description {
   display: flex;
   justify-content: space-between;
-  margin-top: 135px;
+  margin-top: 130px;
   position: relative;
   top: 0;
   right: 0;
@@ -167,17 +165,9 @@
   text-align: left;
   color: #fff;
   margin-left: 28px;
-  letter-spacing: ;
-  word-spacing: 0.9em;
+  letter-spacing: normal;
+  word-spacing: 0.85em;
   align-self: center;
-}
-
-.cover__description-text-special-word-spacing {
-  word-spacing: 0.8em;
-}
-
-cover__description-text-special-letter {
-  letter-spacing: 1.1em;
 }
 
 .bet-button {
@@ -196,7 +186,7 @@ cover__description-text-special-letter {
 }
 
 .lots {
-  margin: 179px 24px 0px 24px;
+  margin: 180px 24px 0px 24px;
 }
 
 .lots__heading {
@@ -298,7 +288,7 @@ cover__description-text-special-letter {
 
 .about {
   margin: 148px 24px 0px 24px;
-  padding-top: 35px;
+  padding-top: 33px;
   display: grid;
   grid-template-columns: 359px 693px;
   grid-template-rows: auto auto;
@@ -311,7 +301,7 @@ cover__description-text-special-letter {
   display: flex;
   grid-area: about__logo;
   box-sizing: border-box;
-  margin-left: 47px;
+  margin-left: 48px;
   background-color: #000;
   border: 1px solid #000;
   border-radius: 50%;
